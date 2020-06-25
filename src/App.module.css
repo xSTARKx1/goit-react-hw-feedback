@@ -1,0 +1,6 @@
+.buttonsContainer {
+  display: flex;
+  width: 230px;
+  justify-content: space-around;
+  margin-left: 30px;
+}
