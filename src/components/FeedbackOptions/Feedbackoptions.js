@@ -17,8 +17,6 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) =>
     );
   });
 
-// this.value = this.value[0].toUpperCase() + this.value.slice(1);
-
 FeedbackOptions.propTypes = {
   options: Proptypes.objectOf(Proptypes.number.isRequired).isRequired,
   onLeaveFeedback: Proptypes.func.isRequired,
